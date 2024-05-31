@@ -6,12 +6,17 @@ body {
     margin: auto;
 }
 
+nav {
+    padding-top: 20px;
+}
+
 header,
 main,
 footer {
     margin: auto;
     text-align: center;
-    font-family: monospace;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
 }
 
 main {
@@ -21,6 +26,7 @@ main {
 
 h1 {
     margin-bottom: 20px;
+    font-size: xx-large;
 }
 
 #long-text {
@@ -28,7 +34,7 @@ h1 {
 }
 
 #nav {
-    font-size: 35px;
+    font-size: 40px;
     margin: 10px;
 }
 
@@ -39,13 +45,18 @@ h1 {
 
 #socials-list {
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
 }
 
 .jobs-text {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .edu-text {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+}
+
+#ender {
+    text-align: center;
+    padding-bottom: 50px;
 }
