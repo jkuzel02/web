@@ -16,6 +16,7 @@ footer {
 
 main {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 h1 {
@@ -38,4 +39,13 @@ h1 {
 
 #socials-list {
     text-align: center;
+    margin-bottom: 150px;
+}
+
+.jobs-text {
+    margin-bottom: 150px;
+}
+
+.edu-text {
+    margin-bottom: 150px;
 }
