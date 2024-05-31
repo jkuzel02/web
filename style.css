@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    width: 80vw;
+    max-width: 900px;
+    margin: auto;
+}
+
+header,
+main,
+footer {
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+}
+
+main {
+    margin-top: 150px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#long-text {
+    text-align: left;
+}
+
+#nav {
+    font-size: 35px;
+    margin: 10px;
+}
+
+#socials {
+    max-width: 40px;
+    margin: 5px;
+}
+
+#socials-list {
+    text-align: center;
+}
