@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     color: white;
     width: 80vw;
     max-width: 900px;
@@ -34,8 +34,14 @@ h1 {
 }
 
 #nav {
+    color: azure;
     font-size: 40px;
     margin: 10px;
+}
+
+#nav:hover {
+    color: aqua;
+    transition: 1s;
 }
 
 #socials {
@@ -57,6 +63,24 @@ h1 {
 }
 
 #ender {
+    color: azure;
     text-align: center;
     padding-bottom: 50px;
+}
+
+#ender:hover {
+    color: aqua;
+    transition: 1s;
+}
+
+#nav:checked,
+#ender:checked {
+    color: azure;
+    transition: 1s;
+}
+
+#ig-link,
+#ig-link:hover,
+#ig-link:checked {
+    color: white;
 }
