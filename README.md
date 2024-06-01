@@ -1,2 +1,2 @@
-Just a website of mine🌟
+Just a website of mine 🌟<br>
 https://jkuzel.cz
