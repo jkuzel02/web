@@ -11,13 +11,33 @@
 <body>
     <header>
         <nav id="fixed">
-            <a id="nav" href="./en.html">About me</a>
-            <a id="nav" href="#to-jobs">Job experience</a>
-            <a id="nav" href="#to-edu">Education</a>
+            <div class="desktop">
+                <a class="hideUnder800px" id="nav" href="./index.html">About me</a>
+                <a class="hideUnder800px" id="nav" href="#to-jobs">Job experience</a>
+                <a class="hideUnder800px" id="nav" href="#to-edu">Education</a>
+                <a class="hamburger" onclick=showSidebar() id="nav" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a>
+            </div>
+            <div class="sidebar">
+                <a onclick=hideSidebar() id="navsb" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="26px" fill="#5f6368">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a>
+                <a id="navsb" href="./index.html">About me</a>
+                <a id="navsb" href="#to-jobs">Job experience</a>
+                <a id="navsb" href="#to-edu">Education</a>
+                <a id="navsb" href="./index.html"><img id="flags" src="./img/czechflag.png" alt="Česky"> Česky</a>
+                <a id="navsb" href="./en.html"><img id="flags" src="./img/unionjack.png" alt="English"> English</a>
+            </div>
         </nav>
         <nav id="top-right-fixed">
-            <a id="languages" href="./index.html">🇨🇿 Česky</a>
-            <a id="languages" href="./en.html">🇬🇧 English</a>
+            <a class="hideUnder800px" id="languages" href="./index.html"><img id="flags" src="./img/czechflag.png"
+                    alt="Česky"> Česky</a>
+            <a class="hideUnder800px" id="languages" href="./en.html"><img id="flags" src="./img/unionjack.png"
+                    alt="English"> English</a>
         </nav>
     </header>
     <main>
@@ -32,9 +52,9 @@
             <p> To see more of my scooter part, make sure you check out my Instagram profile <a
                     href="https://instagram.com/jiri_kuzel" id="ig-link">@jiri_kuzel</a>!<br>
                 This website should showcase more less my IT and job experience.<br>
-            </p>
+            </p><br>
         </div>
-        <p>All my socials:</p>
+        <p>All my socials:</p><br>
 
         <div id="socials-list">
             <a href="https://www.linkedin.com/in/jkuzel02/"><img id=socials src="./img/linkedin.png"></a>
@@ -131,6 +151,7 @@
             </p>
         </div>
     </main>
+    <script src="sidebar.js"></script>
 </body>
 
 </html>
