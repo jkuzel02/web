@@ -111,6 +111,10 @@ h1 {
     color: white;
 }
 
+#turndownHO2023 {
+    width: 100%;
+}
+
 .sidebar {
     position: fixed;
     top: 0;
